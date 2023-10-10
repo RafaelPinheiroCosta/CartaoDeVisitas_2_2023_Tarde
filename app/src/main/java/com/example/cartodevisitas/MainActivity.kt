@@ -98,7 +98,10 @@ fun InformacoesPessoais() {
 
 @Composable
 fun InformacoesDeContato() {
-    Column {
+    Column(
+        verticalArrangement = Arrangement.spacedBy(20.dp),
+        modifier = Modifier.padding(bottom = 20.dp)
+    ) {
         Contato(
             contato = "(11) 95555-5555",
             id = R.drawable.telefone
@@ -133,5 +136,4 @@ fun Contato(contato:String, id:Int) {
             fontSize = 20.sp
         )
     }
-    Spacer(modifier = Modifier.size(20.dp))
 }
