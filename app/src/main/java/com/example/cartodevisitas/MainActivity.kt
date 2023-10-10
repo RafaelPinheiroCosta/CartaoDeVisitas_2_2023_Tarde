@@ -83,7 +83,7 @@ fun InformacoesPessoais() {
                 .border(4.dp, Color.Black, CircleShape)
         )
         Text(
-            text = "Rafael Pinheiro Costa",
+            text = "Rafael Pinheiro Costa ",
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold
         )
