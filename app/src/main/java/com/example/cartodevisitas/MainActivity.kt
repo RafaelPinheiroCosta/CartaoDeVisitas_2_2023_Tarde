@@ -50,8 +50,7 @@ fun CartaoDeVisitas() {
             contentDescription = null,
             contentScale = ContentScale.Crop,
             alpha = 0.5F,
-            modifier = Modifier
-                .fillMaxSize()
+            modifier = Modifier.fillMaxSize()
         )
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -99,8 +98,8 @@ fun InformacoesPessoais() {
 @Composable
 fun InformacoesDeContato() {
     Column(
-        verticalArrangement = Arrangement.spacedBy(20.dp),
-        modifier = Modifier.padding(bottom = 20.dp)
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+        modifier = Modifier.padding(bottom = 10.dp)
     ) {
         Contato(
             contato = "(11) 95555-5555",
@@ -133,7 +132,7 @@ fun Contato(contato:String, id:Int) {
         )
         Text(
             text = contato,
-            fontSize = 20.sp
+            fontSize = 15.sp
         )
     }
 }
